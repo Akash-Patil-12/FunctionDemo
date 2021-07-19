@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1;
+using System;
 
 namespace FunctionProgrames
 {
@@ -9,6 +10,9 @@ namespace FunctionProgrames
             Console.WriteLine("Hello World!");
             Function obj = new Function();
             obj.show();
+
+            AddFun obj1 = new AddFun();
+            obj1.AddFunction(30, 30);
 
             Console.ReadLine();
         }
